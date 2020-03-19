@@ -1,0 +1,58 @@
+@import 'config';
+@import 'layout';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: $font-stack;
+    color: $primary-color;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.navbar {
+    padding: .8em 0;
+
+    .container {
+        @include container;
+        @include grid(2, 1fr);
+    }
+
+    .logo {
+        color: $primary-color;
+        font-size: 24px;
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        white-space: nowrap;
+        
+        span {
+            font-weight: 700;
+        }
+    }
+
+    .nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-self: end;
+        list-style: none;
+
+        a {
+            color: $primary-color;
+            font-size: .8rem;
+            font-weight: 700;
+            padding: 0 .8em;
+        }
+
+        a:focus {
+            color: $brand-color;
+        }
+    }
+}
