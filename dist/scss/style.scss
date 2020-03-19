@@ -54,5 +54,10 @@ body {
         a:focus {
             color: $brand-color;
         }
+
+        a:hover {
+            color: $hover-color;
+            transition: .3s ease;
+        }
     }
 }
