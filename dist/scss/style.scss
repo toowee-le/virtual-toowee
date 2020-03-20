@@ -45,10 +45,7 @@ body {
     }
 
     .nav {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        justify-self: end;
+        @include flex(end);
         list-style: none;
 
         a {

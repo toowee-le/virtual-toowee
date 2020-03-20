@@ -11,3 +11,11 @@
     display: grid;
     grid-template-columns: repeat($x, $y);
 }
+
+// Flex
+@mixin flex($justify-self) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: $justify-self;
+}
