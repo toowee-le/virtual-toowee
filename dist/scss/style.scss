@@ -93,7 +93,7 @@ body {
         }
 
         .btn {
-            @include button(#ffff, #ffff, $brand-color);
+            @include button(#ffff, #ffff, $brand-color, 2px);
 
             .fa-chevron-right {
                 font-size: $chevron-size;
@@ -124,7 +124,7 @@ body {
         }
         
         .consultation-btn {
-            @include button($brand-color, #fff, $brand-color);
+            @include button($brand-color, #fff, $brand-color, 1px);
 
             .fa-chevron-right {
                 font-size: $chevron-size;

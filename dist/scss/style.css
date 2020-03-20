@@ -115,8 +115,8 @@ body a {
   border: 1px solid #ffff;
   background: #acc7dc;
   color: #ffff;
-  font-size: .7rem;
   letter-spacing: 2px;
+  font-size: .7rem;
   text-transform: uppercase;
   padding: .8em 1em;
   margin: 1rem 0;
@@ -167,8 +167,8 @@ body a {
   border: 1px solid #acc7dc;
   background: #acc7dc;
   color: #fff;
+  letter-spacing: 1px;
   font-size: .7rem;
-  letter-spacing: 2px;
   text-transform: uppercase;
   padding: .8em 1em;
   margin: 1rem 0;
