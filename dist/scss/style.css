@@ -109,16 +109,17 @@ body a {
 .banner .banner-text p {
   line-height: 1.3;
   font-size: .9rem;
-  margin-bottom: 1rem;
 }
 
 .banner .banner-text .btn {
-  border: 1px solid #ffffff;
-  color: #ffffff;
+  border: 1px solid #ffff;
+  background: #acc7dc;
+  color: #ffff;
   font-size: .7rem;
   letter-spacing: 2px;
   text-transform: uppercase;
   padding: .7em 1em;
+  margin: 1rem 0;
   position: relative;
   display: inline-block;
 }
@@ -130,4 +131,43 @@ body a {
 .banner .parallax {
   background: url("/dist/img/banner.jpg") no-repeat right center/cover;
   height: 450px;
+}
+
+/* Intro Section */
+#intro {
+  max-width: 1100px;
+  padding: 0 4em;
+  margin: auto;
+  overflow: hidden;
+}
+
+#intro .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  height: 300px;
+}
+
+#intro .container .consultation-btn {
+  border: 1px solid #acc7dc;
+  background: #acc7dc;
+  color: #fff;
+  font-size: .7rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: .7em 1em;
+  margin: 1rem 0;
+  position: relative;
+  display: inline-block;
 }

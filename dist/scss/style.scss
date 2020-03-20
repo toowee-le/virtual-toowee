@@ -90,20 +90,37 @@ body {
         p {
             line-height: $line-height;
             font-size: .9rem;
-            margin-bottom: 1rem;
         }
 
         .btn {
-            @include button(#ffffff, #ffffff);
+            @include button(#ffff, #ffff, $brand-color);
 
             .fa-chevron-right {
                 font-size: .5rem;
-            }
+            }    
         }
     }
 
     .parallax {
         background: url('/dist/img/banner.jpg') no-repeat right center/cover;
         height: 450px;
+    }
+}
+
+/* Intro Section */
+#intro {
+    @include container;
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 300px;
+        
+        .consultation-btn {
+            @include button($brand-color, #fff, $brand-color);
+        }
     }
 }
