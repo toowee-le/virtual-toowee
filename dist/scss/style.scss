@@ -144,4 +144,12 @@ body {
         align-items: center;
         padding: 70px 4em;
     }
+
+    .services-grid {
+        @include grid(3, 1fr);
+    }
+
+    .service {
+        display: flex;
+    }
 }

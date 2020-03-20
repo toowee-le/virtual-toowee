@@ -205,3 +205,16 @@ body a {
           align-items: center;
   padding: 70px 4em;
 }
+
+#services .services-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+}
+
+#services .service {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
