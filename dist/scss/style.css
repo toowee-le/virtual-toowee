@@ -112,14 +112,19 @@ body a {
   margin-bottom: 1rem;
 }
 
-.banner .banner-text a {
-  border: 1px solid #fff;
-  padding: .7em 1em;
-  color: #fff;
+.banner .banner-text .btn {
+  border: 1px solid #ffffff;
+  color: #ffffff;
   font-size: .7rem;
   letter-spacing: 2px;
   text-transform: uppercase;
-  display: relative;
+  padding: .7em 1em;
+  position: relative;
+  display: inline-block;
+}
+
+.banner .banner-text .btn .fa-chevron-right {
+  font-size: .5rem;
 }
 
 .banner .parallax {

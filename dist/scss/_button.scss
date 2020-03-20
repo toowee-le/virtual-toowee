@@ -1,0 +1,10 @@
+@mixin button($border-color, $font-color) {
+    border: 1px solid $border-color;
+    color: $font-color;
+    font-size: .7rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: .7em 1em;
+    position: relative;
+    display: inline-block;
+}
