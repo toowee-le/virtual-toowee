@@ -188,7 +188,7 @@ body a {
   font-family: "Playfair Display", serif;
   font-size: 2.2rem;
   font-weight: 300;
-  margin-bottom: 1em;
+  margin-bottom: .5em;
 }
 
 #services p {
@@ -215,7 +215,7 @@ body a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 70px 4em;
+  padding: 3em 4em;
 }
 
 #services .services-grid {
@@ -223,10 +223,34 @@ body a {
   display: grid;
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3em;
 }
 
-#services .service {
+#services .services-grid .service {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+#services .services-grid .service i {
+  width: 32px;
+  color: #acc7dc;
+}
+
+#services .services-grid .service .service-info {
+  margin-left: 14px;
+}
+
+#services .services-grid .service .service-info h3 {
+  text-transform: uppercase;
+  font-size: .8rem;
+  font-weight: 300;
+}
+
+#services .services-grid .service .service-info ul {
+  margin-left: 14px;
+}
+
+#services .services-grid .service .service-info li {
+  font-size: .8rem;
 }
