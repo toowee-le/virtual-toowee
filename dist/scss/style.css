@@ -185,6 +185,13 @@ body a {
   background-color: #f6f8f9;
 }
 
+#services h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 2.2rem;
+  font-weight: 300;
+  margin-bottom: 1em;
+}
+
 #services .container {
   max-width: 1100px;
   padding: 0 4em;
