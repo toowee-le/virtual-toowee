@@ -132,3 +132,17 @@ body {
             }            }
     }
 }
+
+/* Services Section */
+#services {
+    background-color: #f6f8f9;
+
+    .container {
+        @include container;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 70px 4em;
+    }
+}
