@@ -96,7 +96,7 @@ body {
             @include button(#ffff, #ffff, $brand-color);
 
             .fa-chevron-right {
-                font-size: .5rem;
+                font-size: $chevron-size;
             }    
         }
     }
@@ -121,6 +121,9 @@ body {
         
         .consultation-btn {
             @include button($brand-color, #fff, $brand-color);
-        }
+
+            .fa-chevron-right {
+                font-size: $chevron-size;
+            }            }
     }
 }
