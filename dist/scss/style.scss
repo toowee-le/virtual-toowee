@@ -118,6 +118,10 @@ body {
         justify-content: center;
         text-align: center;
         height: 300px;
+
+        h2 {
+            font-weight: 400;
+        }
         
         .consultation-btn {
             @include button($brand-color, #fff, $brand-color);

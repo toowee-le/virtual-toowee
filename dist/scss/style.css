@@ -159,6 +159,10 @@ body a {
   height: 300px;
 }
 
+#intro .container h2 {
+  font-weight: 400;
+}
+
 #intro .container .consultation-btn {
   border: 1px solid #acc7dc;
   background: #acc7dc;
