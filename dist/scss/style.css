@@ -45,6 +45,19 @@ body i {
   color: #acc7dc;
 }
 
+body .consultation-btn {
+  border: 1px solid #acc7dc;
+  background: #acc7dc;
+  color: #fff;
+  letter-spacing: 1px;
+  font-size: .7rem;
+  text-transform: uppercase;
+  padding: .8em 1em;
+  margin: 1rem 0;
+  position: relative;
+  display: inline-block;
+}
+
 .navbar {
   padding: .8em 0;
   position: fixed;
@@ -181,19 +194,6 @@ body i {
   font-family: "Lato", sans-serif;
   font-size: 1.4rem;
   font-weight: 400;
-}
-
-#intro .container .consultation-btn {
-  border: 1px solid #acc7dc;
-  background: #acc7dc;
-  color: #fff;
-  letter-spacing: 1px;
-  font-size: .7rem;
-  text-transform: uppercase;
-  padding: .8em 1em;
-  margin: 1rem 0;
-  position: relative;
-  display: inline-block;
 }
 
 /* Services Section */
