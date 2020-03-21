@@ -311,3 +311,9 @@ body i {
 .container .plan-info {
   margin-left: 14px;
 }
+
+.container .call-for-action {
+  font-family: "Playfair Display", serif;
+  font-size: 1.2rem;
+  margin-top: 2em;
+}
