@@ -10,10 +10,29 @@ body {
   color: #454444;
   padding-top: 4em;
   line-height: 1.5;
+  font-size: 0.9rem;
 }
 
 body a {
   text-decoration: none;
+}
+
+body h1 {
+  font-size: 2.8rem;
+  text-transform: uppercase;
+}
+
+body h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 2.2rem;
+  font-weight: 300;
+  margin-bottom: .5em;
+}
+
+body h3 {
+  text-transform: uppercase;
+  font-size: .8rem;
+  font-weight: 300;
 }
 
 .navbar {
@@ -100,16 +119,6 @@ body a {
   margin: auto;
 }
 
-.banner .banner-text h1 {
-  font-size: 2.8rem;
-  text-transform: uppercase;
-  margin-bottom: 1rem;
-}
-
-.banner .banner-text p {
-  font-size: 0.9rem;
-}
-
 .banner .banner-text .btn {
   border: 1px solid #ffff;
   background: #acc7dc;
@@ -158,7 +167,9 @@ body a {
   height: 280px;
 }
 
-#intro .container h2 {
+#intro .container .intro-text {
+  font-family: "Lato", sans-serif;
+  font-size: 1.4rem;
   font-weight: 400;
 }
 
@@ -184,15 +195,7 @@ body a {
   background-color: #f6f8f9;
 }
 
-#services h2 {
-  font-family: "Playfair Display", serif;
-  font-size: 2.2rem;
-  font-weight: 300;
-  margin-bottom: .5em;
-}
-
 #services p {
-  font-size: 0.9rem;
   text-align: center;
   margin-bottom: 1em;
 }
@@ -239,12 +242,6 @@ body a {
 
 #services .services-grid .service .service-info {
   margin-left: 14px;
-}
-
-#services .services-grid .service .service-info h3 {
-  text-transform: uppercase;
-  font-size: .8rem;
-  font-weight: 300;
 }
 
 #services .services-grid .service .service-info ul {
