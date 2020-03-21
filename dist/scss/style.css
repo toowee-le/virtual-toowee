@@ -196,10 +196,6 @@ body i {
   display: inline-block;
 }
 
-#intro .container .consultation-btn .fa-chevron-right {
-  font-size: 0.5rem;
-}
-
 /* Services Section */
 #services {
   background-color: #f6f8f9;
