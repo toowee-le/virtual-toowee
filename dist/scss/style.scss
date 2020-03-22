@@ -300,8 +300,8 @@ body {
 }
 
 .footer-section {
+    @include container;
     background: $primary-color;
-    padding: .7em 4em;
     display: flex;
     justify-content: space-between;
     font-size: .7rem;
