@@ -226,3 +226,26 @@ body {
         margin-top: 2em;
     }
 }
+
+/* About Section */
+.about-section {
+    @include grid(2, 1fr);
+    height: 350px;
+
+    .name {
+        background: #000;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-me {
+        background: $section-background;
+        padding: 40px 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
