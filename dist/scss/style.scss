@@ -285,7 +285,7 @@ body {
             letter-spacing: 2;
         }
 
-        button {
+        input[type=submit] {
             @include button(#fff, $brand-color, #fff, 0);
             font-size: .8rem;
             font-weight: 600;

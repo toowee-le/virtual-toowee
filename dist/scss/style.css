@@ -419,7 +419,7 @@ body .consultation-btn {
   letter-spacing: 2;
 }
 
-#contact .form button {
+#contact .form input[type=submit] {
   border: 1px solid #fff;
   background: #fff;
   color: #acc7dc;
@@ -437,6 +437,6 @@ body .consultation-btn {
   transition: .3s ease;
 }
 
-#contact .form button:hover {
+#contact .form input[type=submit]:hover {
   background: #f2f2f2;
 }
