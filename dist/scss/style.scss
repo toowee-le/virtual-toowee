@@ -304,7 +304,10 @@ body {
     background: $primary-color;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     font-size: .7rem;
+    max-width: 100%;
+    padding: 16px 4em;
 
     a,
     p {
