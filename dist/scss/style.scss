@@ -297,5 +297,30 @@ body {
             }
         }
     }
-    
+}
+
+.footer-section {
+    background: $primary-color;
+    padding: .7em 4em;
+    display: flex;
+    justify-content: space-between;
+    font-size: .7rem;
+
+    a,
+    p {
+        color: #bfbfbf;
+        display: inline;
+        transition: .3s ease;
+
+        i {
+            width: 0px;
+            transition: .3s ease;
+            &:hover {
+                color: $section-background;
+            }
+        }
+    }
+    a:hover {
+        color: $section-background;
+    }
 }

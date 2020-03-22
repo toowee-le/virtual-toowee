@@ -440,3 +440,39 @@ body .consultation-btn {
 #contact .form input[type=submit]:hover {
   background: #f2f2f2;
 }
+
+.footer-section {
+  background: #454444;
+  padding: .7em 4em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: .7rem;
+}
+
+.footer-section a,
+.footer-section p {
+  color: #bfbfbf;
+  display: inline;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.footer-section a i,
+.footer-section p i {
+  width: 0px;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.footer-section a i:hover,
+.footer-section p i:hover {
+  color: #f6f8f9;
+}
+
+.footer-section a:hover {
+  color: #f6f8f9;
+}
