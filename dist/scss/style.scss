@@ -248,3 +248,54 @@ body {
         justify-content: center;
     }
 }
+
+/* Contact Section */
+#contact {
+    @include container;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    a {
+        color: $brand-color;
+        transition: .3s ease;
+    }
+    a:hover {
+        color: $hover-color;
+    }
+
+    .form {
+        border: 1px solid #000;
+        width: 100%;
+        text-align: center;
+
+        input[type=text],
+        input[type=email],
+        textarea {
+            width: 60%;
+            border: 0;
+            outline: 0;
+            border-bottom: 1px solid #bbb;
+            padding: 14px;
+            margin-bottom: .8em;
+        }
+
+        ::placeholder {
+            font-family: $font-stack;
+            letter-spacing: 2;
+        }
+
+        button {
+            @include button(#fff, $brand-color, #fff, 0);
+            font-size: .8rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: .3s ease;
+
+            &:hover {
+                background: #f2f2f2;
+            }
+        }
+    }
+    
+}
