@@ -230,7 +230,6 @@ body {
 /* About Section */
 .about-section {
     @include grid(2, 1fr);
-    height: 350px;
 
     .name {
         background: #000;

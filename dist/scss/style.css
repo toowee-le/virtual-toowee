@@ -320,7 +320,6 @@ body .consultation-btn {
   display: grid;
   -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
-  height: 350px;
 }
 
 .about-section .name {
