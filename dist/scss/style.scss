@@ -90,15 +90,15 @@ body {
             font-size: .8rem;
             font-weight: 700;
             padding: 0 .8em;
-        }
 
-        a:focus {
-            color: $brand-color;
-        }
-
-        a:hover {
-            color: $hover-color;
-            transition: .3s ease;
+            &:focus {
+                color: $brand-color;
+            }
+    
+            &:hover {
+                color: $brand-color;
+                transition: .3s ease;
+            }
         }
     }
 }
@@ -259,13 +259,13 @@ body {
     a {
         color: $brand-color;
         transition: .3s ease;
-    }
-    a:hover {
-        color: $hover-color;
+
+        &:hover {
+            color: $hover-color;
+        }
     }
 
     .form {
-        border: 1px solid #000;
         width: 100%;
         text-align: center;
 

@@ -117,7 +117,7 @@ body .consultation-btn {
 }
 
 .navbar .nav a:hover {
-  color: #bfbfbf;
+  color: #acc7dc;
   -webkit-transition: .3s ease;
   transition: .3s ease;
 }
@@ -384,7 +384,6 @@ body .consultation-btn {
 }
 
 #contact .form {
-  border: 1px solid #000;
   width: 100%;
   text-align: center;
 }
