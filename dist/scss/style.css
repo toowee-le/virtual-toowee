@@ -122,6 +122,17 @@ body .consultation-btn {
   transition: .3s ease;
 }
 
+.navbar .nav .burger {
+  display: none;
+}
+
+.navbar .nav .burger div {
+  width: 22px;
+  height: 2px;
+  background-color: #acc7dc;
+  margin: 5px;
+}
+
 /* Welcome Section */
 .banner {
   display: -ms-grid;

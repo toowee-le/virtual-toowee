@@ -100,6 +100,17 @@ body {
                 transition: .3s ease;
             }
         }
+
+        .burger {
+            display: none;
+        }
+        
+        .burger div {
+            width: 22px;
+            height: 2px;
+            background-color: $brand-color;
+            margin: 5px;
+        }
     }
 }
 
