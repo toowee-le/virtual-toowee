@@ -362,4 +362,8 @@ body {
             margin: auto;
         }
     }
+
+    #pricing .package-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }

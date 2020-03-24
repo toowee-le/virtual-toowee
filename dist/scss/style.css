@@ -518,4 +518,8 @@ body .consultation-btn {
     width: 60%;
     margin: auto;
   }
+  #pricing .package-grid {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
 }
