@@ -348,9 +348,18 @@ body {
     .banner {
         height: 30em;
         grid-template-columns: 1fr;
+        
+        .parallax {
+            display: none;
+        }
     }
 
-    .parallax {
-        display: none;
+    #services .services-grid {
+        grid-template-columns: 1fr;
+
+        .service {
+            width: 60%;
+            margin: auto;
+        }
     }
 }

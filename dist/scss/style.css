@@ -507,7 +507,15 @@ body .consultation-btn {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
   }
-  .parallax {
+  .banner .parallax {
     display: none;
+  }
+  #services .services-grid {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  #services .services-grid .service {
+    width: 60%;
+    margin: auto;
   }
 }
