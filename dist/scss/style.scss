@@ -366,4 +366,16 @@ body {
     #pricing .package-grid {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    #about .about-section {
+        grid-template-columns: 1fr;
+
+        .name{
+            padding: 1.8em 0;
+        }
+
+        .about-me {
+            text-align: center;
+        }
+    }
 }
