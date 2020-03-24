@@ -79,7 +79,10 @@ body {
     }
 
     .nav {
-        @include flex(end);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-self: end;
         list-style: none;
 
         a {

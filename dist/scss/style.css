@@ -70,11 +70,12 @@ body .consultation-btn {
 .navbar .container {
   max-width: 1100px;
   padding: 0 4em;
-  margin: auto;
   overflow: hidden;
+  text-align: center;
+  margin: auto;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: repeat(2, 1fr);
+  -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
 }
 
@@ -126,7 +127,7 @@ body .consultation-btn {
 .banner {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: repeat(2, 1fr);
+  -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -168,8 +169,9 @@ body .consultation-btn {
 #intro {
   max-width: 1100px;
   padding: 0 4em;
-  margin: auto;
   overflow: hidden;
+  text-align: center;
+  margin: auto;
 }
 
 #intro .container {
@@ -204,8 +206,9 @@ body .consultation-btn {
 #services .container {
   max-width: 1100px;
   padding: 0 4em;
-  margin: auto;
   overflow: hidden;
+  text-align: center;
+  margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -248,8 +251,9 @@ body .consultation-btn {
 .container {
   max-width: 1100px;
   padding: 0 4em;
-  margin: auto;
   overflow: hidden;
+  text-align: center;
+  margin: auto;
   padding: 3em 4em;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -359,8 +363,9 @@ body .consultation-btn {
 #contact {
   max-width: 1100px;
   padding: 0 4em;
-  margin: auto;
   overflow: hidden;
+  text-align: center;
+  margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -444,8 +449,9 @@ body .consultation-btn {
 .footer-section {
   max-width: 1100px;
   padding: 0 4em;
-  margin: auto;
   overflow: hidden;
+  text-align: center;
+  margin: auto;
   background: #454444;
   display: -webkit-box;
   display: -ms-flexbox;

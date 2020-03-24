@@ -4,21 +4,11 @@
     padding: 0 4em;
     overflow: hidden;
     text-align: center;
-    height: 300px;
-    margin: 2.5em auto;
+    margin: auto;
 }
 
 // Grid
 @mixin grid($x, $y) {
     display: grid;
     grid-template-columns: repeat($x, $y);
-}
-
-// Flex
-@mixin flex($justify-self) {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-self: $justify-self;
-    flex-direction: $flex-direction;
 }
