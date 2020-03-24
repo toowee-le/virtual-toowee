@@ -327,3 +327,15 @@ body {
         color: $section-background;
     }
 }
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .banner {
+        height: 30em;
+        grid-template-columns: 1fr;
+    }
+
+    .parallax {
+        display: none;
+    }
+}

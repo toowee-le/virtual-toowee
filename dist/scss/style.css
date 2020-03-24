@@ -490,3 +490,15 @@ body .consultation-btn {
 .footer-section a:hover {
   color: #f6f8f9;
 }
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .banner {
+    height: 30em;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .parallax {
+    display: none;
+  }
+}
