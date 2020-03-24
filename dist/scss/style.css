@@ -532,4 +532,9 @@ body .consultation-btn {
   #about .about-section .about-me {
     text-align: center;
   }
+  #contact .form input[type=text],
+  #contact .form input[type=email],
+  #contact .form textarea {
+    width: 100%;
+  }
 }

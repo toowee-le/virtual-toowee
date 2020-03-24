@@ -378,4 +378,10 @@ body {
             text-align: center;
         }
     }
+
+    #contact .form input[type=text],
+    #contact .form input[type=email],
+    #contact .form textarea {
+        width: 100%;
+    }
 }
