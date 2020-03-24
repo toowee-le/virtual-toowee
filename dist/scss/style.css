@@ -486,6 +486,7 @@ body .consultation-btn {
 
 .footer-section a i,
 .footer-section p i {
+  font-size: 1rem;
   width: 0px;
   -webkit-transition: .3s ease;
   transition: .3s ease;
