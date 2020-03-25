@@ -507,11 +507,17 @@ i {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
   }
+  .banner h1 {
+    font-size: 3rem;
+  }
+  .banner .tagline {
+    font-size: 1.3rem;
+  }
   .banner .parallax {
     display: none;
   }
   #intro .container .intro-text {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
   #services .services-grid {
     -ms-grid-columns: 1fr;
@@ -561,9 +567,6 @@ i {
 }
 
 @media (max-width: 425px) {
-  h1 {
-    font-size: 2.3rem;
-  }
   .banner {
     height: 100vh;
   }
