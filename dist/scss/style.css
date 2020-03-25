@@ -528,7 +528,7 @@ i {
         grid-template-columns: 1fr;
   }
   #services .services-grid .service {
-    width: 60%;
+    width: 90%;
     margin: auto;
   }
   #pricing .package-grid {
