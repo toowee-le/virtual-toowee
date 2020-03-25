@@ -149,22 +149,19 @@ i {
 }
 
 /* Intro Section */
-#intro {
-    @include container;
+#intro .container {
+    @include container;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
 
-    .container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        height: 100vh;
-
-        .intro-text {
-            font-family: $font-stack;
-            font-size: 1.4rem;
-            font-weight: 400;
-        }
+    .intro-text {
+        font-family: $font-stack;
+        font-size: 1.4rem;
+        font-weight: 400;
     }
 }
 
@@ -426,5 +423,11 @@ i {
 
     #pricing .plan:nth-child(3) {
         grid-row: 3/3;
+    }
+}
+
+@media (max-width: 425px) {
+    h1 {
+        font-size: 2.3rem;
     }
 }
