@@ -575,3 +575,9 @@ i {
         grid-template-columns: 1fr;
   }
 }
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .navbar .logo {
+    font-size: 16px;
+  }
+}
