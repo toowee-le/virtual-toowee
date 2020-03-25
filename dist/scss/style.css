@@ -152,6 +152,7 @@ i {
       -ms-flex-pack: center;
           justify-content: center;
   background: #acc7dc;
+  height: 100vh;
 }
 
 .banner .banner-text {
@@ -179,7 +180,7 @@ i {
 
 .banner .parallax {
   background: url("/dist/img/banner.jpg") no-repeat right center/cover;
-  height: 450px;
+  height: 100%;
 }
 
 /* Intro Section */
@@ -205,7 +206,7 @@ i {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
-  height: 280px;
+  height: 100vh;
 }
 
 #intro .container .intro-text {
@@ -555,5 +556,14 @@ i {
   .footer-section {
     display: block;
     text-align: center;
+  }
+}
+
+@media (max-width: 625px) {
+  .navbar .logo {
+    font-size: 20px;
+  }
+  h1 {
+    font-size: 3rem;
   }
 }
