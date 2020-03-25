@@ -579,4 +579,8 @@ i {
   h1 {
     font-size: 2.3rem;
   }
+  #pricing .package-grid {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
 }
