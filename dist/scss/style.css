@@ -377,16 +377,6 @@ i {
   padding: 0 4em;
   overflow: hidden;
   margin: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   padding: 3em 4em 0;
 }
 
@@ -412,12 +402,12 @@ i {
 #contact .container .form input[type=text],
 #contact .container .form input[type=email],
 #contact .container .form textarea {
-  width: 60%;
   border: 0;
   outline: 0;
   border-bottom: 1px solid #bbb;
   padding: 14px;
   margin-bottom: .8em;
+  width: 60%;
 }
 
 #contact .container .form ::-webkit-input-placeholder {
@@ -544,11 +534,6 @@ i {
   }
   #about .about-section .about-me {
     text-align: center;
-  }
-  #contact .form input[type=text],
-  #contact .form input[type=email],
-  #contact .form textarea {
-    width: 100%;
   }
   .footer-section {
     display: block;
