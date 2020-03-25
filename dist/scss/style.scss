@@ -268,11 +268,16 @@ i {
 }
 
 /* Contact Section */
-#contact {
+#contact .container {
     @include container;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 3em 4em 0;
+
+    .section-info {
+        width: 100%;
+    }
 
     a {
         color: $brand-color;
