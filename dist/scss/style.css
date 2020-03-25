@@ -511,6 +511,9 @@ i {
 
 /* Media Queries */
 @media (max-width: 768px) {
+  .navbar .nav {
+    display: none;
+  }
   .banner {
     height: 30em;
     -ms-grid-columns: 1fr;
