@@ -14,46 +14,48 @@ body {
     padding-top: 4em;
     line-height: $line-height;
     font-size: $paragraph-size;
+}
 
-    a {
-        text-decoration: none;
-    }
+/* Typography */
+a {
+    text-decoration: none;
+}
 
-    h1 {
-        font-size: 2.8rem;
-        text-transform: uppercase;
-    }
+h1 {
+    font-size: 2.8rem;
+    text-transform: uppercase;
+}
 
-    .tagline {
-        font-size: 1rem;
-    }    
-    
-    h2 {
-        font-family: $font-header;
-        font-size: 2.2rem;
-        font-weight: 300;
-        margin-bottom: .5em;
-    }
+.tagline {
+    font-size: 1rem;
+}    
 
-    h3 {
-        text-transform: uppercase;
-        font-size: .8rem;
-        font-weight: 300;
-    }
+h2 {
+    font-family: $font-header;
+    font-size: 2.2rem;
+    font-weight: 300;
+    margin-bottom: .5em;
+}
 
-    .section-info {
-        text-align: center;
-        margin-bottom: 1em;
-    }
+h3 {
+    text-transform: uppercase;
+    font-size: .8rem;
+    font-weight: 300;
+}
 
-    i {
-        width: 32px;
-        color: $brand-color;
-    }
+.section-info {
+    text-align: center;
+    margin-bottom: 1em;
+}
 
-    .consultation-btn {
-        @include button($brand-color, #fff, $brand-color, 1px);
-    }
+i {
+    width: 32px;
+    color: $brand-color;
+}
+
+/*  Buttons */
+.consultation-btn {
+    @include button($brand-color, #fff, $brand-color, 1px);
 }
 
 .navbar {
@@ -107,13 +109,13 @@ body {
 
         .burger {
             display: none;
-        }
-
-        .burger div {
-            width: 22px;
-            height: 2px;
-            background-color: $brand-color;
-            margin: 5px;
+            
+            div {
+                width: 22px;
+                height: 2px;
+                background-color: $brand-color;
+                margin: 5px;
+            }
         }
     }
 }
