@@ -504,7 +504,6 @@ i {
     display: none;
   }
   .banner {
-    height: 30em;
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
   }
