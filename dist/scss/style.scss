@@ -126,7 +126,8 @@ body {
     background: $brand-color;
 
     .banner-text {
-        width: 70%;
+        width: 100%;
+        padding: 0 4em;
         margin: auto;
 
         .btn {
@@ -349,7 +350,7 @@ body {
     .banner {
         height: 30em;
         grid-template-columns: 1fr;
-        
+
         .parallax {
             display: none;
         }
