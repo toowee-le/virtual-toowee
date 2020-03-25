@@ -511,6 +511,9 @@ body .consultation-btn {
   .banner .parallax {
     display: none;
   }
+  #intro .container .intro-text {
+    font-size: 1.2rem;
+  }
   #services .services-grid {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
