@@ -384,16 +384,6 @@ i {
   width: 100%;
 }
 
-#contact .container a {
-  color: #acc7dc;
-  -webkit-transition: .3s ease;
-  transition: .3s ease;
-}
-
-#contact .container a:hover {
-  color: #bfbfbf;
-}
-
 #contact .container .form {
   width: 100%;
   text-align: center;
