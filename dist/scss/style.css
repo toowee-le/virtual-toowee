@@ -64,6 +64,24 @@ i {
   display: inline-block;
 }
 
+#scrollToTopBtn {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 1px solid #454444;
+  background: transparent;
+  outline: none;
+  cursor: pointer;
+}
+
+#scrollToTopBtn i {
+  color: #454444;
+  font-size: 16px;
+}
+
 .navbar {
   padding: .8em 0;
   position: fixed;
@@ -474,17 +492,17 @@ i {
   transition: .3s ease;
 }
 
-.footer-section a i,
-.footer-section p i {
-  font-size: 1rem;
+.footer-section a i:before,
+.footer-section p i:before {
   width: 0px;
   margin-top: .3em;
+  padding: 0;
   -webkit-transition: .3s ease;
   transition: .3s ease;
 }
 
-.footer-section a i:hover,
-.footer-section p i:hover {
+.footer-section a i:before:hover,
+.footer-section p i:before:hover {
   color: #f6f8f9;
 }
 

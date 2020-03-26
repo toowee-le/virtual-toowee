@@ -58,6 +58,24 @@ i {
     @include button($brand-color, #fff, $brand-color, 1px);
 }
 
+#scrollToTopBtn {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid $primary-color;
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+
+    i {
+        color: $primary-color;
+        font-size: 16px;
+    }
+}
+
 .navbar {
     padding: .8em 0;
     position: fixed;
@@ -328,10 +346,10 @@ i {
         display: inline;
         transition: .3s ease;
 
-        i {
-            font-size: 1rem;
+        i:before {
             width: 0px;
             margin-top: .3em;
+            padding: 0;
             transition: .3s ease;
             &:hover {
                 color: $section-background;
