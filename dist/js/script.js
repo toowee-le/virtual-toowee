@@ -11,7 +11,7 @@ ScrollReveal().reveal('.banner', {
 });
 
 ScrollReveal().reveal('.banner-text', {
-	duration: 1500,
+	duration: 1200,
 	origin: 'top',
 	distance: '30px'
 });
@@ -22,6 +22,11 @@ ScrollReveal().reveal('.btn', {
 	distance: '20px'
 });
 
+ScrollReveal().reveal('.intro-text', {
+	delay: 100,
+	origin: 'top',
+});
+
 ScrollReveal().reveal('.icon', {
 	duration: 1500,
 	origin: 'top',
@@ -30,24 +35,27 @@ ScrollReveal().reveal('.icon', {
 
 ScrollReveal().reveal('.title', {
 	duration: 1500,
-	origin: 'top',
-	distance: '30px'
+	origin: 'bottom',
 });
 
 ScrollReveal().reveal('.subtitle', {
-	delay: 500,
-	origin: 'top',
-	distance: '10px'
+	delay: 100,
+	origin: 'bottom',
+});
+
+ScrollReveal().reveal('.about-me', {
+	duration: 1500,
+	origin: 'bottom',
 });
 
 ScrollReveal().reveal('.contact-section', {
-	duration: 1000,
+	delay: 700,
 	origin: 'top',
 	distance: '30px'
 });
 
 ScrollReveal().reveal('.submit', {
-	delay: 500,
+	delay: 300,
 	origin: 'bottom',
 	distance: '20px'
 });
