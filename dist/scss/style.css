@@ -356,6 +356,10 @@ i {
           justify-content: center;
 }
 
+.about-section .name .title {
+  margin: 0;
+}
+
 .about-section .about-me {
   background: #f6f8f9;
   padding: 40px 60px;
