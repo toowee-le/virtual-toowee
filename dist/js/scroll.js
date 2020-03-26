@@ -49,7 +49,7 @@ ScrollReveal().reveal('.about-me', {
 });
 
 ScrollReveal().reveal('.contact-section', {
-	delay: 700,
+	delay: 500,
 	origin: 'top',
 	distance: '30px'
 });
