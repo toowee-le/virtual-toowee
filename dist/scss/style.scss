@@ -147,17 +147,6 @@ h3 {
                 transition: .3s ease;
             }
         }
-
-        .burger {
-            display: none;
-            
-            div {
-                width: 22px;
-                height: 2px;
-                background-color: $brand-color;
-                margin: 5px;
-            }
-        }
     }
 }
 
