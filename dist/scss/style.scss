@@ -231,6 +231,10 @@ i {
         .service {
             display: flex;
 
+            .icon {
+                color: $brand-color;
+            }
+
             .service-info {
                 margin-left: 26px;
 
@@ -254,6 +258,10 @@ i {
     .pricing-grid {
         @include grid(2, 1fr);
         grid-gap: 2em;
+
+        .icon {
+            color: $brand-color;
+        }
 
         .plan:nth-child(3) {
             grid-row: 2/2;

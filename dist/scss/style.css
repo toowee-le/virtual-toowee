@@ -307,6 +307,10 @@ i {
   display: flex;
 }
 
+#services .services-grid .service .icon {
+  color: #acc7dc;
+}
+
 #services .services-grid .service .service-info {
   margin-left: 26px;
 }
@@ -343,6 +347,10 @@ i {
   -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
   grid-gap: 2em;
+}
+
+.container .pricing-grid .icon {
+  color: #acc7dc;
 }
 
 .container .pricing-grid .plan:nth-child(3) {
