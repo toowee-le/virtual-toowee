@@ -9,7 +9,7 @@ body {
   font-family: "Lato", sans-serif;
   color: #454444;
   line-height: 1.6;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 /* Typography */
@@ -507,7 +507,7 @@ h3 {
   margin: auto;
   background: #454444;
   text-align: center;
-  font-size: 0.8rem;
+  font-size: .7rem;
   max-width: 100%;
   padding: 16px 4em;
 }
