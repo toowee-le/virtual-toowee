@@ -333,31 +333,24 @@ i {
 .footer-section {
     @include container;
     background: $primary-color;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: .7rem;
+    text-align: center;
+    font-size: $paragraph-size;
     max-width: 100%;
     padding: 16px 4em;
 
-    a,
-    p {
+    a {
         color: #bfbfbf;
         display: inline;
         transition: .3s ease;
 
-        i:before {
-            width: 0px;
-            margin-top: .3em;
-            padding: 0;
-            transition: .3s ease;
-            &:hover {
-                color: $section-background;
-            }
+        &:hover {
+            color: $section-background;   
         }
     }
-    a:hover {
-        color: $section-background;
+
+    p {
+        color: #bfbfbf;
+        display: inline;
     }
 }
 
