@@ -440,6 +440,10 @@ h3 {
   text-align: center;
 }
 
+#contact .container .form .g-recaptcha {
+  margin: 0 auto;
+}
+
 #contact .container .form input[type=text],
 #contact .container .form input[type=email],
 #contact .container .form textarea {
