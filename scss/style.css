@@ -293,6 +293,7 @@ h3 {
 
 #services .services-grid .service .icon {
   color: #acc7dc;
+  width: 30px;
 }
 
 #services .services-grid .service .service-info {
@@ -335,6 +336,7 @@ h3 {
 
 .container .pricing-grid .icon {
   color: #acc7dc;
+  width: 30px;
 }
 
 .container .pricing-grid .plan:nth-child(3) {
